@@ -1,0 +1,11 @@
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[alias]
+	d = difftool
+[user]
+	email = laurent@cozic.net
+	name = Laurent Cozic
+[push]
+	default = simple
