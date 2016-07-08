@@ -9,3 +9,5 @@
 	name = Laurent Cozic
 [push]
 	default = simple
+[core]
+	editor = vim
