@@ -16,7 +16,9 @@
 [plugins]
 [profiles]
   [[default]]
+    background_darkness = 0.37
     background_image = None
+    background_type = transparent
     copy_on_selection = True
     font = Ubuntu Mono 14
     foreground_color = "#ffffff"
