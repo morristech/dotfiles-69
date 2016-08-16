@@ -4,5 +4,17 @@ PS1='\[\033[1;36m\]\u\[\033[1;31m\]@\[\033[1;32m\]\h:\[\033[1;35m\]\w\[\033[1;31
 alias ls='LANG=C ls --color=auto'
 alias ll='ls -alF'
 
+man() {
+	env \
+		LESS_TERMCAP_mb=$(printf "\e[1;36m") \
+		LESS_TERMCAP_md=$(printf "\e[1;36m") \
+		LESS_TERMCAP_me=$(printf "\e[0m") \
+		LESS_TERMCAP_se=$(printf "\e[0m") \
+		LESS_TERMCAP_so=$(printf "\e[1;44;33m") \
+		LESS_TERMCAP_ue=$(printf "\e[0m") \
+		LESS_TERMCAP_us=$(printf "\e[1;32m") \
+			man "$@"
+}
+
 export VISUAL=vim
 export EDITOR="$VISUAL"
