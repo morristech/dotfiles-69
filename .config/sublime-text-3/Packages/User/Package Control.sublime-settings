@@ -1,0 +1,28 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ApacheConf.tmLanguage",
+		"AutoHotkey",
+		"ColorPicker",
+		"GotoDocumentation",
+		"HTML Mustache",
+		"HTMLBeautify",
+		"iCalendar",
+		"INI",
+		"MarkdownEditing",
+		"Package Control",
+		"PHP-Twig",
+		"Pretty JSON",
+		"SideBarEnhancements",
+		"SqlBeautifier",
+		"Text Pastry",
+		"TrailingSpaces",
+		"URLEncode",
+		"Varnish VCL",
+		"Xdebug Client"
+	]
+}

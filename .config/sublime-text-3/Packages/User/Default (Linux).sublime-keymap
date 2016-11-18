@@ -1,0 +1,19 @@
+[
+	{ "keys": ["ctrl+alt+shift+c"], "command": "select_word" },
+	{ "keys": ["f12"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+	{ "keys": ["ctrl+space"], "command": "auto_complete" },
+	{ "keys": ["ctrl+;"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["f5"], "command": "build" },
+	{ "keys": ["ctrl+shift+c"], "command": "run_macro_file", "args": {"file": "Packages/User/copyword.sublime-macro"} },
+	{ "keys": ["ctrl+shift+x"], "command": "run_macro_file", "args": {"file": "Packages/User/cutword.sublime-macro"} },
+	{ "keys": ["ctrl+shift+v"], "command": "run_macro_file", "args": {"file": "Packages/User/deletewordandpaste.sublime-macro"} },
+	{ "keys": ["ctrl+shift+w"], "command": "close_others" },
+	{ "keys": ["f1"], "command": "goto_documentation" },
+	{ "keys": ["f9"], "command": "goto_definition" },
+	{ "keys": ["ctrl+u"], "command": "soft_undo" },
+
+	// Disable these shortcuts since they prevent Shift+Alt+num to work on AZERTY keyboard
+	{ "keys": ["alt+1"], "command": "noop" },
+	{ "keys": ["alt+2"], "command": "noop" },
+	{ "keys": ["alt+3"], "command": "noop" }
+]

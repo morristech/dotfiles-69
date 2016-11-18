@@ -1,0 +1,8 @@
+{
+	"extensions":
+	[
+		"ctp",
+		"php"
+	],
+	"word_wrap": false
+}

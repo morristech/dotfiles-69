@@ -1,0 +1,16 @@
+*.cache
+*.last-run
+*.pyc
+Backup/
+Cache/
+Index/
+Installed Packages/
+KEEPME
+Local/
+Packages/bz2
+Packages/ColorPicker
+Packages/Pretty JSON/
+Packages/ssl-linux
+Packages/URLEncode/
+Packages/User/Xdebug.breakpoints
+Packages/User/Xdebug.log

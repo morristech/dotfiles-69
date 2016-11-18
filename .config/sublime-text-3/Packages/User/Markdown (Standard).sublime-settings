@@ -1,0 +1,13 @@
+{
+	"translate_tabs_to_spaces": false,
+	"trim_trailing_white_space_on_save": false,
+	"auto_match_enabled": false,
+
+	// Layout
+	"draw_centered": false,
+	"wrap_width": 0,
+
+	// Line
+	"line_numbers": true,
+	"highlight_line": true
+}
