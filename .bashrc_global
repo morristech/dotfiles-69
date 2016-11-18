@@ -1,4 +1,6 @@
 #!/bin/bash
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 PS1='\[\033[1;36m\]\u\[\033[1;31m\]@\[\033[1;32m\]\h:\[\033[1;35m\]\w\[\033[1;31m\]\$\[\033[0m\] '
 
 alias ls='LANG=C ls --color=auto'
@@ -16,5 +18,11 @@ man() {
 			man "$@"
 }
 
+curl_headers() {
+	curl -s -D - $1 -o /dev/null
+}
+
 export VISUAL=vim
 export EDITOR="$VISUAL"
+
+PATH=$PATH:"$SCRIPT_DIR/git-commands"
