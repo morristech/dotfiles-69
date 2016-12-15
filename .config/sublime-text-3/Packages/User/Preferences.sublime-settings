@@ -26,6 +26,7 @@
 	"detect_indentation": true,
 	"detect_slow_plugins": false,
 	"draw_minimap_border": true,
+	"draw_white_space": "selection",
 	"enable_tab_scrolling": false,
 	"file_exclude_patterns":
 	[

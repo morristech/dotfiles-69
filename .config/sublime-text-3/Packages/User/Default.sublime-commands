@@ -1,0 +1,7 @@
+[
+	{
+		"caption": "Toggle White Space",
+		"command": "toggle_white_space",
+		"args": {}
+	}
+]

@@ -1,4 +1,5 @@
 {
 	"max_depth": 3,
-	"max_children": 256
+	"max_children": 256,
+	"super_globals": false
 }
