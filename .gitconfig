@@ -10,4 +10,10 @@
 [push]
 	default = simple
 [core]
-	editor = vim
+	editor = vim -f
+	compression = 9
+	filemode = false
+[credential]
+	helper = cache --timeout=2419200
+[mergetool]
+	keepBackup = false
