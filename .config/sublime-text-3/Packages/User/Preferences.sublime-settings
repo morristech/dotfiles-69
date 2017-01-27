@@ -73,6 +73,7 @@
 		"*.tif",
 		"*.tiff",
 		"*.zip",
+		"*.sqlite",
 		"*.xls",
 		"*.xlsx",
 		"*.odt",
