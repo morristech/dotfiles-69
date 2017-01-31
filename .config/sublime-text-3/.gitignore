@@ -15,3 +15,8 @@ Packages/URLEncode/
 Packages/Babel/
 Packages/User/Xdebug.breakpoints
 Packages/User/Xdebug.log
+Packages/python-markdown
+Packages/python-jinja2
+Packages/pygments
+Packages/mdpopups
+Packages/markupsafe
