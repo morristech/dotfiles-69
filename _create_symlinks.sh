@@ -25,5 +25,3 @@ fn_symlink "$SCRIPT_DIR/.config/qtcreator" ~/.config/QtProject
 fn_symlink "$SCRIPT_DIR/.config/terminator" ~/.config/terminator
 fn_symlink "$SCRIPT_DIR/.config/sublime-text-3" ~/.config/sublime-text-3
 fn_symlink "$SCRIPT_DIR/.config/SpeedCrunch" ~/.config/SpeedCrunch
-fn_symlink "$SCRIPT_DIR/.my.cnf" ~/.my.cnf
-fn_symlink "$SCRIPT_DIR/.grcat" ~/.grcat
