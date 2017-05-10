@@ -16,6 +16,7 @@
 	editor = vim -f
 	compression = 9
 	filemode = false
+	autocrlf = true
 [credential]
 	helper = cache --timeout=2419200
 [mergetool]
