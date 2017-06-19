@@ -8,15 +8,16 @@
 		"ApacheConf.tmLanguage",
 		"AutoHotkey",
 		"Babel",
+		"babel-sublime",
 		"ColorPicker",
 		"GotoDocumentation",
+		"Gradle_Language",
 		"HexViewer",
 		"HTML Mustache",
 		"HTMLBeautify",
 		"iCalendar",
 		"Indent XML",
 		"INI",
-		"JSX",
 		"MarkdownEditing",
 		"Package Control",
 		"PHP-Twig",
@@ -29,5 +30,9 @@
 		"URLEncode",
 		"Varnish VCL",
 		"Xdebug Client"
+	],
+	"repositories":
+	[
+		"https://github.com/babel/babel-sublime"
 	]
 }
