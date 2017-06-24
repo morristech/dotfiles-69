@@ -19,7 +19,9 @@ fn_symlink() {
 mkdir -p ~/.config
 
 fn_symlink "$SCRIPT_DIR/.vim" ~/.vim
+fn_symlink "$SCRIPT_DIR/.tmux" ~/.tmux
 fn_symlink ~/.vim/vimrc ~/.vimrc
+fn_symlink ~/.tmux/.tmux.conf ~/.tmux.conf
 fn_symlink "$SCRIPT_DIR/.gitconfig" ~/.gitconfig 
 fn_symlink "$SCRIPT_DIR/.config/qtcreator" ~/.config/QtProject
 fn_symlink "$SCRIPT_DIR/.config/terminator" ~/.config/terminator
