@@ -7,6 +7,7 @@ PS1='\[\033[1;36m\]\u\[\033[1;31m\]@\[\033[1;32m\]\h \[\033[1;36m\]\D{%T} \[\033
 
 alias ls='LANG=C ls --color=auto'
 alias ll='ls -alhF'
+alias sqlite3="sqlite3 -header -column"
 
 man() {
 	env \
