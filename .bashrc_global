@@ -28,4 +28,5 @@ export VISUAL=vim
 export EDITOR="$VISUAL"
 
 PATH=$PATH:"$SCRIPT_DIR/git-commands"
+PATH=$PATH:"$SCRIPT_DIR/bin"
 PATH=$PATH:"$HOME/.local/bin"

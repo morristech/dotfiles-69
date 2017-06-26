@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+LOCATION="$1"
+curl "wttr.in/$LOCATION"
