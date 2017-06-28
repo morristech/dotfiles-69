@@ -17,6 +17,7 @@ fn_symlink() {
 }
 
 mkdir -p ~/.config
+mkdir -p ~/.local/share/tmux-resurrect
 
 fn_symlink "$SCRIPT_DIR/.vim" ~/.vim
 fn_symlink "$SCRIPT_DIR/.tmux" ~/.tmux

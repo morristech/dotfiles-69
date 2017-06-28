@@ -81,4 +81,8 @@ CATEGORY=$(echo "$WEATHER" | jq .weather[0].id)
 TEMP="$(echo "$WEATHER" | jq .main.temp | cut -d . -f 1)°C"
 ICON=$(weather_icon "$CATEGORY")
 
-printf "%s" "$ICON $TEMP ($ZIP)"
+if [[ $(uname -a) == *"Microsoft"* ]]; then
+	printf "%s" "$TEMP ($ZIP)"
+else
+	printf "%s" "$ICON $TEMP ($ZIP)"
+fi
