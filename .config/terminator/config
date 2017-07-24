@@ -3,6 +3,7 @@
   close_term = <Shift><Alt>w
   go_down = <Shift><Alt>Down
   go_up = <Shift><Alt>Up
+  page_up = None
   scaled_zoom = <Shift><Alt>Return
   split_horiz = <Shift><Alt>h
 [layouts]
