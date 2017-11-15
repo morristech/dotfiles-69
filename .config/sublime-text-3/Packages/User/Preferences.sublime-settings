@@ -16,10 +16,12 @@
 		"*.swf",
 		"*.tga",
 		"*.ttf",
-		"*.zip"
+		"*.zip",
+		"node_modules/**"
 	],
 	"bold_folder_labels": true,
-	"caret_style": "blink",
+	"caret_extra_width": 2,
+	"caret_style": "smooth",
 	"color_scheme": "Packages/User/Themes/Monokai Extended Bright (Mod).tmTheme",
 	"copy_with_empty_selection": false,
 	"default_line_ending": "unix",
@@ -82,7 +84,8 @@
 		".DS_Store",
 		".project",
 		".tags",
-		".tags_sorted_by_file"
+		".tags_sorted_by_file",
+		"*.jar"
 	],
 	"find_selected_text": false,
 	"fold_buttons": false,
@@ -132,6 +135,7 @@
 	"show_definitions": false,
 	"show_full_path": true,
 	"tab_completion": false,
+	"theme": "Adaptive.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": false
 }

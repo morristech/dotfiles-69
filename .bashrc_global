@@ -3,7 +3,7 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 IGNOREEOF=10 # Shell only exists after the 10th consecutive Ctrl-d
 
-PS1='\[\033[1;36m\]\u\[\033[1;31m\]@\[\033[1;32m\]\h \[\033[1;36m\]\D{%T} \[\033[1;35m\]\w\[\033[1;31m\] \$\[\033[0m\] '
+PS1='\[\033[1;36m\]\u\[\033[1;31m\]@\[\033[1;36m\]\h \[\033[1;35m\]\D{%T} \[\033[1;32m\]\w\[\033[1;31m\]\n\$\[\033[0m\] '
 
 alias ls='LANG=C ls --color=auto'
 alias ll='ls -alhF'

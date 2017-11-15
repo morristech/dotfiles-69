@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"ApacheConf.tmLanguage",
 		"AutoHotkey",
 		"Babel",
@@ -26,6 +27,7 @@
 		"Switch File Deluxe",
 		"Text Pastry",
 		"TrailingSpaces",
+		"Trimmer",
 		"URLEncode",
 		"Varnish VCL",
 		"Xdebug Client"
