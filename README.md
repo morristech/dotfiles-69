@@ -1,6 +1,6 @@
 # Basic installation
 
-	DOTFILES_DIR=$HOME
+	DOTFILES_DIR=$HOME/dotfiles
 	git clone git@github.com:laurent22/dotfiles.git "$DOTFILES_DIR/"
 	"$DOTFILES_DIR/_create_symlinks.sh"
 	"$DOTFILES_DIR/_apt_install.sh"
