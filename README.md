@@ -14,6 +14,10 @@
 * Install https://packagecontrol.io/installation
 * Restart Sublime Text 3
 
+On macOS:
+
+    ln -s "$HOME/.config/sublime-text-3/Packages" "$HOME/Library/Application Support/Sublime Text 3/Packages"
+
 # tmux
 
 	git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
