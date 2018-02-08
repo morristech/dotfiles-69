@@ -17,7 +17,8 @@
 		"*.tga",
 		"*.ttf",
 		"*.zip",
-		"node_modules/**"
+		"node_modules/**",
+		"*.dmg"
 	],
 	"bold_folder_labels": true,
 	"caret_extra_width": 2,
@@ -98,7 +99,7 @@
 		"CVS"
 	],
 	"font_face": "DejaVu Sans Mono",
-	"font_size": 10,
+	"font_size": 8,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":

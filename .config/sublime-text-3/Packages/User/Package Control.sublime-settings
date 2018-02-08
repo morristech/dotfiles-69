@@ -6,7 +6,7 @@
 	"installed_packages":
 	[
 		"A File Icon",
-		"ApacheConf.tmLanguage",
+		"ApacheConf",
 		"AutoHotkey",
 		"Babel",
 		"babel-sublime",
@@ -30,6 +30,7 @@
 		"Trimmer",
 		"URLEncode",
 		"Varnish VCL",
+		"WordCount",
 		"Xdebug Client"
 	],
 	"repositories":
