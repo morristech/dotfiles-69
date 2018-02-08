@@ -7,6 +7,13 @@
 
 	echo "" >> ~/.bashrc
 	echo "source "$DOTFILES_DIR/.bashrc_global"" >> ~/.bashrc
+	
+# vim
+
+	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+	vim +PluginInstall +qall
+
+https://github.com/VundleVim/Vundle.vim
 
 # Sublime Text
 
@@ -17,6 +24,7 @@
 On macOS:
 
     ln -s "$HOME/.config/sublime-text-3/Packages" "$HOME/Library/Application Support/Sublime Text 3/Packages"
+    ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 
 # tmux
 
@@ -24,10 +32,3 @@ On macOS:
 	tmux source ~/.tmux.conf
 
 Then open tmux and run PREFIX + I to fetch the plugins.
-
-# vim
-
-	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-	vim +PluginInstall +qall
-
-https://github.com/VundleVim/Vundle.vim
