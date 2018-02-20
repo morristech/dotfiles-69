@@ -18,7 +18,10 @@
 		"*.ttf",
 		"*.zip",
 		"node_modules/**",
-		"*.dmg"
+		"*.dmg",
+		"*.woff",
+		"*.woff2",
+		"*.exe"
 	],
 	"bold_folder_labels": true,
 	"caret_extra_width": 2,
@@ -134,7 +137,7 @@
 	"show_definitions": false,
 	"show_full_path": true,
 	"tab_completion": false,
-	"theme": "Adaptive.sublime-theme",
+	"theme": "Boxy Tomorrow.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": false
 }
