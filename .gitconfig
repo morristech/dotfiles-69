@@ -20,5 +20,10 @@
 	safecrlf = false
 [credential]
 	helper = cache --timeout=2419200
+[merge]
+	tool = bc3
 [mergetool]
 	keepBackup = false
+	prompt = false
+[mergetool "bc3"]
+	cmd = /mnt/d/Programmes/BeyondCompare/BComp.exe "$LOCAL" "$REMOTE" "$BASE" "$MERGED"

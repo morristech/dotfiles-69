@@ -137,7 +137,7 @@
 	"show_definitions": false,
 	"show_full_path": true,
 	"tab_completion": false,
-	"theme": "Boxy Tomorrow.sublime-theme",
+	"theme": "Boxy Monokai.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": false
 }
