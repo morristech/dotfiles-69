@@ -2,6 +2,7 @@
 	"extensions":
 	[
 		".gitconfig",
-		"cnf"
+		"cnf",
+		".flowconfig"
 	]
 }
