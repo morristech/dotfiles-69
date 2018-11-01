@@ -24,6 +24,7 @@ fn_symlink "$SCRIPT_DIR/.tmux" ~/.tmux
 fn_symlink ~/.vim/vimrc ~/.vimrc
 fn_symlink ~/.tmux/.tmux.conf ~/.tmux.conf
 fn_symlink "$SCRIPT_DIR/.gitconfig" ~/.gitconfig 
+fn_symlink "$SCRIPT_DIR/.gitignore_global" ~/.gitignore_global
 fn_symlink "$SCRIPT_DIR/.config/qtcreator" ~/.config/QtProject
 fn_symlink "$SCRIPT_DIR/.config/terminator" ~/.config/terminator
 fn_symlink "$SCRIPT_DIR/.config/sublime-text-3" ~/.config/sublime-text-3

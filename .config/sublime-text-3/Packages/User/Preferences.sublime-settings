@@ -17,11 +17,11 @@
 		"*.tga",
 		"*.ttf",
 		"*.zip",
-		"node_modules/**",
 		"*.dmg",
 		"*.woff",
 		"*.woff2",
-		"*.exe"
+		"*.exe",
+		"node_modules/**"
 	],
 	"bold_folder_labels": true,
 	"caret_extra_width": 2,
@@ -89,7 +89,9 @@
 		".project",
 		".tags",
 		".tags_sorted_by_file",
-		"*.jar"
+		"*.jar",
+		"*.mp4",
+		"*.mov"
 	],
 	"find_selected_text": false,
 	"fold_buttons": false,
