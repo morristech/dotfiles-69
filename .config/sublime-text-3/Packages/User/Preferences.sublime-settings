@@ -20,6 +20,9 @@
 		"*.dmg",
 		"*.mp4",
 		"*.mov",
+		"*.woff",
+		"*.woff2",
+		"*.exe"
 	],
 	"bold_folder_labels": true,
 	"caret_extra_width": 2,
@@ -87,7 +90,9 @@
 		".project",
 		".tags",
 		".tags_sorted_by_file",
-		"*.jar"
+		"*.jar",
+		"*.mp4",
+		"*.mov"
 	],
 	"find_selected_text": false,
 	"fold_buttons": false,
@@ -98,7 +103,7 @@
 		".git",
 		".svn",
 		"CVS",
-		"node_modules",
+		"node_modules"
 	],
 	"font_face": "DejaVu Sans Mono",
 	"font_size": 8,
@@ -108,8 +113,10 @@
 	[
 		"AppleScript",
 		"ASP",
+		"Boxy Theme",
 		"Clojure",
 		"D",
+		"Dockerfile Syntax Highlighting",
 		"Erlang",
 		"Graphviz",
 		"Haskell",
@@ -136,7 +143,7 @@
 	"show_definitions": false,
 	"show_full_path": true,
 	"tab_completion": false,
-	"theme": "Adaptive.sublime-theme",
+	"theme": "Boxy Tomorrow.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": false
 }

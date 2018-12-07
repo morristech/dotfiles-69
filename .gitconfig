@@ -6,7 +6,9 @@
 [difftool]
 	prompt = false
 [alias]
-	d = difftool
+	ignore = update-index --assume-unchanged
+	unignore = update-index --no-assume-unchanged
+	ignored = !git ls-files -v | grep "^[[:lower:]]"
 [user]
 	email = laurent@cozic.net
 	name = Laurent Cozic
@@ -18,10 +20,13 @@
 	filemode = false
 	autocrlf = input
 	safecrlf = false
+	excludesfile = ~/.gitignore_global
 [credential]
 	helper = cache --timeout=2419200
 [merge]
-    tool = meld
-[mergetool "meld"]
-    cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
-    keepBackup = false
+	tool = bc3
+[mergetool]
+	keepBackup = false
+	prompt = false
+[mergetool "bc3"]
+	cmd = /mnt/d/Programmes/BeyondCompare/BComp.exe "$LOCAL" "$REMOTE" "$BASE" "$MERGED"

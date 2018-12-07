@@ -19,12 +19,15 @@ https://github.com/VundleVim/Vundle.vim
 
 * Install https://www.sublimetext.com/
 * Install https://packagecontrol.io/installation
-* Restart Sublime Text 3
+* Close Sublime Text 3
 
 On macOS:
 
+    rm -rf "$HOME/Library/Application Support/Sublime Text 3/Packages"
     ln -s "$HOME/.config/sublime-text-3/Packages" "$HOME/Library/Application Support/Sublime Text 3/Packages"
     ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+    
+* Restart ST3
 
 # tmux
 
