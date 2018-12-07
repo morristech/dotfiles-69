@@ -10,5 +10,7 @@
     { "keys": ["super+shift+w"], "command": "close_others" },
     { "keys": ["f1"], "command": "goto_documentation" },
     { "keys": ["super+alt+p"], "command": "prompt_select_workspace" },
-    { "keys": ["f9"], "command": "goto_definition" }
+    { "keys": ["f9"], "command": "goto_definition" },
+    { "keys": ["f3"], "command": "find_next" },
+    { "keys": ["shift+f3"], "command": "find_prev" },
 ]

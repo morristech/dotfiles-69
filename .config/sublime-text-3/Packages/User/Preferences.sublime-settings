@@ -17,8 +17,9 @@
 		"*.tga",
 		"*.ttf",
 		"*.zip",
-		"node_modules/**",
-		"*.dmg"
+		"*.dmg",
+		"*.mp4",
+		"*.mov",
 	],
 	"bold_folder_labels": true,
 	"caret_extra_width": 2,
@@ -96,7 +97,8 @@
 		"application/logs",
 		".git",
 		".svn",
-		"CVS"
+		"CVS",
+		"node_modules",
 	],
 	"font_face": "DejaVu Sans Mono",
 	"font_size": 8,
