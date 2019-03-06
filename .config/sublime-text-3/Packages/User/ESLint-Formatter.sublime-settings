@@ -1,0 +1,8 @@
+// Settings in here override those in "ESLint-Formatter/ESLint-Formatter.sublime-settings",
+
+{
+	"format_on_save": false,
+	"local_eslint_path": {
+    	"osx": "/usr/local/bin/eslint_d"
+  	},
+}
