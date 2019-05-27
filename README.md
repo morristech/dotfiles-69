@@ -21,11 +21,18 @@ https://github.com/VundleVim/Vundle.vim
 * Install https://packagecontrol.io/installation
 * Close Sublime Text 3
 
-On macOS:
+## On macOS:
 
     rm -rf "$HOME/Library/Application Support/Sublime Text 3/Packages"
     ln -s "$HOME/.config/sublime-text-3/Packages" "$HOME/Library/Application Support/Sublime Text 3/Packages"
     ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+    
+## On Windows
+
+From elevated prompt:
+    
+    rmdir /s/q "%appdata%\Sublime Text 3\Packages"
+    mklink /d "%appdata%\Sublime Text 3\Packages" "D:\Docs\Param\Dotfiles\.config\sublime-text-3\Packages"
     
 * Restart ST3
 
