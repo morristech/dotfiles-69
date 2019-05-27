@@ -18,7 +18,8 @@ IGNOREEOF=10 # Shell only exists after the 10th consecutive Ctrl-d
 # Load the git bash library to get access to __git_ps1 function, used in the prompt
 if [ "$PLATFORM" == "macOS" ]; then
 	# From built-in Git:
-	source /Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh
+	#source /Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh
+	source /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-prompt.sh
 
 	# From Homebrew:
 	source /usr/local/etc/bash_completion.d/git-completion.bash
@@ -64,7 +65,7 @@ curl_headers() {
 	curl -s -D - $1 -o /dev/null
 }
 
-export VISUAL=vim
+export VISUAL=subl
 export EDITOR="$VISUAL"
 
 PATH=$PATH:"$SCRIPT_DIR/git-commands"
